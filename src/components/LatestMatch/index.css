@@ -58,3 +58,29 @@
     margin-left: 25px;
   }
 }
+.latest-date {
+  font-size: 18px;
+}
+.latest-date {
+  font-size: 18px;
+}
+.latest-text {
+  font-size: 13px;
+}
+.latest-label {
+  font-size: 18px;
+}
+@media screen and (min-width: 768px) {
+  .latest-date {
+    font-size: 25px;
+  }
+  .latest-date {
+    font-size: 25px;
+  }
+  .latest-text {
+    font-size: 18px;
+  }
+  .latest-label {
+    font-size: 25px;
+  }
+}

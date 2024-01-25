@@ -80,12 +80,15 @@ class TeamMatches extends Component {
   renderLatestData = () => {
     const {latestMatchData} = this.state
     return (
-      <ul className="latest-container">
-        <LatestMatch
-          latestMDetails={latestMatchData}
-          key={latestMatchData.id}
-        />
-      </ul>
+      <div className="lat-container">
+        <p className="latest-title">Latest Matches</p>
+        <ul className="latest-container">
+          <LatestMatch
+            latestMDetails={latestMatchData}
+            key={latestMatchData.id}
+          />
+        </ul>
+      </div>
     )
   }
 

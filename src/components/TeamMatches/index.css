@@ -77,3 +77,11 @@
     align-items: center;
   }
 }
+.lat-container {
+  width: 100%;
+}
+.latest-title {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  color: #ffffff;
+}
