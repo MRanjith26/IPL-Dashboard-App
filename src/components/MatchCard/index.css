@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.recent-item {
+  background-color: #1e293b;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 170px;
+  height: 320px;
+  text-align: center;
+  margin: 0px 10px 10px 10px;
+}
+@media screen and (min-width: 768px) {
+  .recent-item {
+    padding: 10px 20px;
+    width: 250px;
+    height: 350px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+  }
+}
+.recent-logo {
+  width: 50px;
+}
+@media screen and (min-width: 768px) {
+  .recent-logo {
+    width: 100px;
+  }
+}
+.team-text {
+  font-size: 10px;
+}
+@media screen and (min-width: 768px) {
+  .team-text {
+    font-size: 20px;
+  }
+}
+.status-text {
+  font-size: 8px;
+  padding: 0px 5px;
+}
+@media screen and (min-width: 768px) {
+  .status-text {
+    font-size: 25px;
+  }
+}
+.active {
+  color: #18ed66;
+}
+.in-active {
+  color: #e31a1a;
+}

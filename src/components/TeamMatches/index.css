@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.Bangalore {
+  background-image: linear-gradient(to bottom, #a4261d, #000000);
+}
+.Kolkata {
+  background-image: linear-gradient(to bottom, #4f5bd0, #f7db00);
+}
+.Mumbai {
+  background-image: linear-gradient(to bottom, #13418b, #4f5db0);
+}
+.Chennai {
+  background-image: linear-gradient(to bottom, #f7db00, #13418b);
+}
+.Punjab {
+  background-image: linear-gradient(to bottom, #d91c1f, #ffffff33);
+}
+.Rajasthan {
+  background-image: linear-gradient(to bottom, #da237b, #ffffff33);
+}
+.Hyderabad {
+  background-image: linear-gradient(to bottom, #f26d22, #0f172a);
+}
+.Delhi {
+  background-image: linear-gradient(to bottom, #13418b, #a4261d);
+}
+
+.match-details-container {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .match-details-container {
+    padding: 40px;
+  }
+}
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .inner-container {
+    width: 90%;
+  }
+}
+.latest-container {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.banner-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.recent-container {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .recent-container {
+    justify-content: space-between;
+    align-items: center;
+  }
+}

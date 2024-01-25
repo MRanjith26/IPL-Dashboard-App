@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.latest-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #1e293b;
+  align-items: center;
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .latest-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    margin: 15px 0px;
+  }
+}
+.first-card {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .first-card {
+    gap: 30px;
+    border: none;
+  }
+}
+.last-card {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  text-align: left;
+  align-self: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .last-card {
+    text-align: right;
+  }
+}
+.latest-logo {
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+}
+@media screen and (min-width: 768px) {
+  .latest-logo {
+    width: 300px;
+    height: 250px;
+    margin-left: 25px;
+  }
+}
